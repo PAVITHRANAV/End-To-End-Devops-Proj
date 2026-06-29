@@ -5,7 +5,7 @@ pipeline {
     environment {
         DOCKER_IMAGE = "cluxtch/website"
         IMAGE_TAG = "v1"
-        DOCKER_CREDENTIALS = "dockerhub-cred"
+        DOCKER_CREDENTIALS = "docker-credentials"
     }
 
     stages {
